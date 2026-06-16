@@ -26,7 +26,7 @@ An enterprise-grade data pipeline designed to automate synthetic data extraction
 
 Below is the production-ready interactive dashboard built for executive decision-making. It features dynamic category and date filter controls, optimized UI/UX alignment, and clean financial scaling.
 
-![Executive Dashboard Insights](AWS Data Pipeline and Business Intelligence Dashboard.png)
+![Executive Dashboard Insights](AWS_Data_Pipeline_and_Business_Intelligence_Dashboard.png)
 
 ---
 
