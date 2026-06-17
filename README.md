@@ -7,39 +7,39 @@ An end-to-end cloud data engineering and business intelligence pipeline that aut
 ## Solution Architecture
 
 ```text
-┌───────────────────┐
-│   FakeStore API   │
-└─────────┬─────────┘
-          │
-          ▼
-┌───────────────────┐
-│ Python ETL Layer  │
-│ Requests + Pandas │
-└─────────┬─────────┘
-          │
-          ▼
-┌───────────────────┐
-│ Data Processing   │
-│ Scaling & Cleanup │
-└─────────┬─────────┘
-          │
-          ▼
-┌───────────────────┐
-│ Amazon S3 Bucket  │
-│   Data Lake       │
-└─────────┬─────────┘
-          │
-          ▼
-┌───────────────────┐
-│ Amazon Athena     │
-│ SQL Query Engine  │
-└─────────┬─────────┘
-          │
-          ▼
-┌───────────────────┐
-│ Power BI          │
-│ Executive Reports │
-└───────────────────┘
+┌─────────────────┐
+│  FakeStore API  │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Python ETL      │
+│ Requests,Pandas │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Data Processing │
+│ Scaling,Cleanup │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Amazon S3       │
+│ Data Lake       │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Amazon Athena   │
+│ Query Engine    │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Power BI        │
+│ Dashboards      │
+└─────────────────┘
 ```
 
 ---
